@@ -1,0 +1,191 @@
+
+body{
+    background-color: rgb(172, 164, 164);
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+nav{
+    
+        font-family: "Ubuntu Condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height: 100px;
+    background-color: black;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+    margin: 2px;
+    color: whitesmoke;
+
+}
+
+nav ul li{
+    padding: 10px;
+    margin: 3px;
+    cursor: pointer;
+
+}
+
+nav ul li:hover{
+    color: purple;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo img{
+    display:flex;
+    height: 65px;
+    font-weight: 150px;
+    width: 80px;
+}
+
+.container {
+    font-family: "Oswald", sans-serif;
+    min-height: 75vh;
+    margin: 70px auto;
+    padding: 10px;
+    background-color: black;
+    width: 1000px;
+    color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("frank-septillion-Qrspubmx6kE-unsplash.jpg"); /* Set background image */
+    background-size: cover;       /* Cover the entire container */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    opacity: 0.9;
+    z-index: -1;
+}
+
+
+.VarunList
+   {
+        
+        
+        display: flex;
+        margin: 2px auto;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+
+   }
+
+
+i{
+    cursor: pointer;
+}
+
+.SongList
+{
+    font-size: 30px;
+    padding: 12px;
+}
+
+.SongItem {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Image aur text ke beech mein space ke liye */
+    padding: 8px;
+    max-width: 500px; /* Maximum width limit set karein */
+    height: 30px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+.SongItem img {
+    height: 50px; /* Fixed dimensions, aap isse adjust kar sakte hain */
+    width: 50px;
+    object-fit: cover; /* Image ko frame ke andar fit rakhega */
+    border-radius: 8px; /* Rounded edges ke liye, optional */
+}
+
+.SongItem span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.SongItem span:hover{
+    color: rgb(189, 124, 124);
+    
+}
+
+.SongListPlay {
+    margin-left: auto;
+    cursor: pointer;
+
+}
+
+.gif {
+    position: relative; /* Align within the container */
+    margin-left: auto; /* Push the GIF to the right */
+    text-align: center; /* Center text inside the div */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 150px; /* Adjust width as needed */
+    font-size: 12px; /* Smaller font size for the text */
+    color: white;
+}
+
+.gif img {
+    width: 100px; /* Smaller GIF size */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px; /* Space between image and text */
+    opacity:0;
+    transition: opacity 1s ease-in;
+}
+
+#timestamp {
+    color: whitesmoke;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.bottom{
+    
+    display: flex;
+    background-color: black;
+    border-radius: 12px;
+    height: 100px;
+    color: whitesmoke;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    padding:4px;
+    margin:4px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progressbar{
+    width: 75vw;
+    cursor: pointer;
+
+
+}
